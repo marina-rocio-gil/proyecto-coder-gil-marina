@@ -19,16 +19,18 @@ header, footer {
 .weteam-logo {
     width: 10%;
     height: auto;
-    padding: 0.5em;
-    margin: 0.5em;
+    padding: 6px;
+    margin: 6px;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 12px;
 }
 
 ul {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -40,10 +42,16 @@ nav ul li {
 }
 
 .nav-link {
-    padding: 0.3em;
+    /* padding: 0.3em; */
+    display: flex;
+    justify-content: center;
     margin: 0.3em;
     font-size: 1.2em;
     font-weight: 700;
+}
+
+.nav-link:visited {
+    color: rgb(252, 244, 230);
 }
 
 .nav-link:hover {
@@ -115,7 +123,7 @@ h2 {
     justify-content: center;
     background-color: rgb(235, 229, 77);
     color:rgb(5, 5, 73);
-    width: 16%;
+    width: 17%;
     padding: 8px;
     margin: 5px;
     border-radius: 4px;
@@ -144,8 +152,6 @@ h2 {
     align-items: center;
     font-size: 3em;
 }
-
-.section-weteam
 
 /* ASESORÍAS */
 .section-asesorias {
@@ -269,20 +275,20 @@ h2 {
     margin: 10px;
 }
 
-.cursos {
+.cursos-card {
     position: relative;
     width: 35%;
     background-color: rgb(207, 222, 236);
     border-radius: 10px;
 }
 
-.cursos img {
+.cursos-card img {
     width: 95%;
     margin: 7px 14px 5px;
     border-radius: 10px;
 }
 
-.cursos p {
+.cursos-card p {
     padding: 5px 14px;
 }
 
