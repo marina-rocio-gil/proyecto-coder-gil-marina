@@ -123,8 +123,15 @@ main section a img {
 }
 
 /* ASESORÍAS */
+.section-asesorias {
+    margin: 0 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #asesorias-container {
-    margin: 3%;
+    margin: 1% 3%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 0.5fr);
@@ -182,6 +189,12 @@ main section a img {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.button-container {
+    margin: 1% 3%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* CONTACTO */
