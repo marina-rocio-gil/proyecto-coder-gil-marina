@@ -123,63 +123,65 @@ main section a img {
 }
 
 /* ASESORÍAS */
-.section-asesorias {
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-}
-
-.item-asesorias {
-    justify-content: center;
-}
-
-.container-asesorias {
-    padding: 2% 10%;
-}
-
-.asesoria-card {
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
+#asesorias-container {
+    margin: 3%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    }
+    
 .asesoria-img {
-    width: 6%;
-    height: auto;
-    padding: 1% 2% 0.5%;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
-}
-
-.asesoria-text {
-    padding: 0.5% 2% 1%;
+    margin-right: 10px;
 }
 
 #asesoria-1 {
     background-color: rgb(70, 38, 120);
     color: rgb(255, 255, 255);
+    grid-area: 1 / 1 / 2 / 3;
 }
 
 #asesoria-2 {
-    background-color: rgb(72, 82, 106);
+    background-color: rgb(72, 85, 106);
     color: rgb(255, 255, 255);
+    grid-area: 1 / 3 / 2 / 4;
 }
 
 #asesoria-3 {
     background-color: rgb(207, 222, 236);
+    grid-area: 2 / 1 / 3 / 2;
 }
 
 #asesoria-4 {
     background-color: rgb(25, 33, 46);
     color: rgb(255, 255, 255);
+    grid-area: 2 / 2 / 3 / 4;
 }
 
 #asesoria-5 {
     background-color: rgb(207, 222, 236);
+    grid-area: 1 / 4 / 3 / 5;
 }
 
-.button-container {
+.asesoria-grid {
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 1px rgb(0,0,0,0.3);
+}
+
+.asesoria-grid h4 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.card-header {
     display: flex;
-    justify-content: flex-end;
-    width: 90%;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 /* CONTACTO */
