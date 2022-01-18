@@ -1,0 +1,287 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+}
+
+header, footer {
+    position: sticky;
+    display: flex;
+    background-color: rgba(9, 9, 90, 0.5);
+    color: rgb(252, 244, 230);
+}
+
+.weteam-logo {
+    width: 10%;
+    height: auto;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0.5em;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0.3em;
+    margin: 0.3em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0.1em;
+    margin: 0.1em;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    display: flex;
+    padding: 0.2em;
+    margin: 0.2em;
+    font-size: 2.125em;
+    font-weight: 400;
+}
+
+.footer-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 12%;
+    padding: 0.8em 1em;
+}
+
+.footer-item {
+    position: relative;
+    padding: 0.5em;
+}
+
+.footer-container .seguinos p {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container .copyright {
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.8em;
+}
+
+.footer-container .newsletter {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container .newsletter label {
+    padding: 0.3em;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(235, 229, 77);
+    color:rgb(5, 5, 73);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+
+}
+
+/* INDEX */
+main section a img {
+    width: 75%;
+    height: auto;
+    margin: 10px;
+    padding: 4px;
+    border: 2px solid rgb(5, 5, 73);
+}
+
+.section-weteam {
+    display: flex;
+    width: 100%;
+    padding: 0 1.2em;
+}
+
+.section-weteam h2 {
+    align-items: center;
+    font-size: 3em;
+}
+
+/* ASESORÍAS */
+.section-asesorias {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.item-asesorias {
+    justify-content: center;
+}
+
+.container-asesorias {
+    padding: 2% 10%;
+}
+
+.asesoria-card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.asesoria-img {
+    width: 6%;
+    height: auto;
+    padding: 1% 2% 0.5%;
+    border-radius: 50%;
+}
+
+.asesoria-text {
+    padding: 0.5% 2% 1%;
+}
+
+#asesoria-1 {
+    background-color: rgb(70, 38, 120);
+    color: rgb(255, 255, 255);
+}
+
+#asesoria-2 {
+    background-color: rgb(72, 82, 106);
+    color: rgb(255, 255, 255);
+}
+
+#asesoria-3 {
+    background-color: rgb(207, 222, 236);
+}
+
+#asesoria-4 {
+    background-color: rgb(25, 33, 46);
+    color: rgb(255, 255, 255);
+}
+
+#asesoria-5 {
+    background-color: rgb(207, 222, 236);
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+/* CONTACTO */
+.section-contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-contacto {
+    position: relative;
+    width: 38em;
+    height: 27em;
+    padding: 1em;
+    margin: 2em;
+    background-color: rgba(206, 219, 233, 0.5);
+    color: rgb(5, 5, 73);
+    border-radius: 10px;
+}
+
+.container-contacto iframe {
+    position: relative;
+    width: 95%;
+    height: 70%;
+    padding: 10px 5px 5px 15px;
+    border-radius: 10px;
+}
+
+.container-contacto .contacto {
+    display: flex;
+    padding: 5px 15px;
+}
+
+.container-contacto .contacto p {
+    display: inline-block;
+    padding: ;
+}
+
+/* CURSOS */
+.container-cursos {
+    display: flex;
+    justify-content: center;
+}
+
+.container-cursos div {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+.cursos {
+    position: relative;
+    width: 35%;
+    background-color: rgba(206, 219, 233, 0.5);
+    border-radius: 10px;
+}
+
+.cursos img {
+    width: 95%;
+    margin: 7px 14px 5px;
+    border-radius: 10px;
+}
+
+.cursos p {
+    padding: 5px 14px;
+}
+
+.container-cursos .arrow {
+    display: flex;
+    border: none;
+}
+
+.consultar {
+    padding: 5px;
+    border: 2px solid rgb(235, 229, 77);
+    margin: 5px;
+    background-color: rgb(255, 255, 255);   
+}
+
+/* NOSOTRAS */
+.section-nosotras {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0.5em;
+}
+
+.section-nosotras div {
+    display: inline-block;
+    width: 25%;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(206, 219, 233);
+    border-radius: 10px;
+}
+
+.section-nosotras img {
+    width: 95%;
+    height: auto;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+.section-nosotras div p {
+    font-size: 0.9em;
+    padding: 5px 7px;
+}
