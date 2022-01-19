@@ -124,9 +124,9 @@ h2 {
     text-decoration: none;
     background-color: rgb(235, 229, 77);
     color:rgb(5, 5, 73);
-    width: 17%;
-    padding: 8px;
-    margin: 5px;
+    width: 21%;
+    padding: 10px;
+    margin: 15px;
     border-radius: 4px;
 }
 
@@ -272,10 +272,21 @@ h2 {
     
 }
 
+.carousel-indicators {
+    display: flex;
+    align-items: flex-end;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: flex;
+    align-items: flex-end;
+}
+
 .consultar {
+    align-items: center;
     padding: 5px;
     border: 2px solid rgb(235, 229, 77);
-    margin: 5px;
+    margin: 15px;
     background-color: rgb(255, 255, 255);   
 }
 
