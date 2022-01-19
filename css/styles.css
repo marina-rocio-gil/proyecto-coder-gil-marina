@@ -121,6 +121,7 @@ h2 {
 .button {
     display: flex;
     justify-content: center;
+    text-decoration: none;
     background-color: rgb(235, 229, 77);
     color:rgb(5, 5, 73);
     width: 17%;
