@@ -124,8 +124,8 @@ h2 {
     background-color: rgb(235, 229, 77);
     color:rgb(5, 5, 73);
     width: 21%;
-    padding: 10px;
-    margin: 15px;
+    padding: 0.625em;
+    margin: 0.9em;
     border-radius: 4px;
 }
 
@@ -238,7 +238,7 @@ h2 {
     position: relative;
     width: 38em;
     height: 27em;
-    padding: 1em;
+    padding: 1em 1em 0.1em 1em;
     margin: 2em;
     background-color: rgb(207, 222, 236);
     color: rgb(5, 5, 73);
@@ -247,7 +247,7 @@ h2 {
 
 .container-contacto iframe {
     position: relative;
-    width: 95%;
+    width: 98%;
     height: 70%;
     padding: 10px 5px 5px 15px;
     border-radius: 10px;
@@ -255,12 +255,38 @@ h2 {
 
 .container-contacto .contacto {
     display: flex;
-    padding: 5px 15px;
+    padding: 0 15px;
 }
 
 .container-contacto .contacto p {
     display: inline-block;
-    padding: ;
+    color: rgb(5, 5, 73);
+}
+
+.container-contacto .contacto a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 0.5em;
+}
+
+#btn-enviar {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 1em;
+    padding: 5px;
+    background-color: rgb(235, 229, 77);
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 1px rgb(0,0,0,0.2);
+}
+
+#btn-enviar a {
+    text-decoration: none;
+    color:rgb(5, 5, 73);
+    margin: 3px;
 }
 
 /* CURSOS */
