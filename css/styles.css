@@ -42,7 +42,6 @@ nav ul li {
 }
 
 .nav-link {
-    /* padding: 0.3em; */
     display: flex;
     justify-content: center;
     margin: 0.3em;
@@ -266,10 +265,9 @@ h2 {
 
 /* CURSOS */
 .carousel {
-    width:640px;
-    height:360px;
+    width: 40em;
+    height: 22.5em;
     margin: 15px auto 75px;
-    
 }
 
 .carousel-indicators {
